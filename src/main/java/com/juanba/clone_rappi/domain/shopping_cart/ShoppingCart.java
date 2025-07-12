@@ -1,7 +1,6 @@
 package com.juanba.clone_rappi.domain.shopping_cart;
 
 import com.juanba.clone_rappi.domain.product.Product;
-import com.juanba.clone_rappi.domain.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +14,6 @@ import java.util.List;
 @NoArgsConstructor
 public class ShoppingCart {
     private Long id;
-    private User user;
+    private String user;
     private List<Product> products;
 }
